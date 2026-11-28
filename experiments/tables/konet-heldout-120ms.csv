@@ -1,0 +1,4 @@
+snapshot_date,cohort,model,distance_ms,strict_both_win_pct,minimum_margin,common_records,measurement_scope
+2026-10-29,paired_common_support,Original StableSyncNet,120,21.37,-0.0809,44,held-out score comparison
+2026-10-29,paired_common_support,KoNet Full epoch 9,120,22.52,-0.1132,44,held-out score comparison
+2026-10-29,paired_common_support,KoNet LoRA r8 a16 epoch 5,120,25.93,-0.0868,44,held-out score comparison

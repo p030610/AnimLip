@@ -28,7 +28,7 @@ Across the 20 English clips, the tested 0.5x, 1x, and 2x gains had mouth-opening
 
 [Open the full-size limitations diagram](../assets/previews/ta2-limitations.png).
 
-- The examples are deliberately close mouth crops. They illustrate motion behavior, not full-frame visual quality.
+- The English comparison grids are deliberately close mouth crops. They illustrate motion behavior, not full-frame visual quality.
 - The automated opening estimate is sensitive to stylized character geometry and should be read as a relative diagnostic signal.
 - Gain can increase motion range without improving temporal agreement. In this experiment, median temporal correlation decreased from 0.443 at 0.5x to 0.275 at 2x.
 - Reference selection can change pose, expression, and composition as well as mouth opening. The lower/higher references were selected from the same ground-truth clip for diagnosis, not as a deployable selection procedure.
@@ -38,7 +38,7 @@ Across the 20 English clips, the tested 0.5x, 1x, and 2x gains had mouth-opening
 
 The source clips are `videos/000/clip_00035.mp4`, `videos/000/clip_00209.mp4`, `videos/000/clip_00271.mp4`, and `videos/005/clip_05546.mp4` from the TA2.0 Animation Dataset. The dataset card releases its synthetic video under Apache-2.0 and identifies LongCat-Video-Avatar as the generator. The English comparison outputs were produced with MotionDiT epoch 350 and the frozen renderer, seed 1701, at 25 fps. The Korean pair uses the separately recorded Official Ditto and E350 routes named above.
 
-TA2's embedded speech derives from these openly licensed corpora:
+TA2's embedded speech derives from the openly licensed corpora listed below.
 
 | Audio corpus | License |
 |---|---|
@@ -53,5 +53,3 @@ TA2's embedded speech derives from these openly licensed corpora:
 | [MInDS-14 (PolyAI)](https://huggingface.co/datasets/PolyAI/minds14) | CC BY 4.0 |
 
 TA2's public metadata identifies the demonstrated clips as Korean or English but does not expose the upstream corpus on a per-clip basis, so all nine source credits are preserved here rather than guessing a narrower attribution. The audio was segmented, AAC-encoded, and muxed by TA2; our edits trim, concatenate where stated, and re-encode without changing speech content. See TA2's canonical [audio attribution page](https://huggingface.co/datasets/neosapience/TA2.0_animation_dataset/blob/main/ATTRIBUTION.md) for complete source and license notes.
-
-The exact source hashes, export commands, decoded-playback checks, and inspected-frame contact sheet are retained in the private release evidence for this publication.

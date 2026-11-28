@@ -1,0 +1,6 @@
+snapshot_time_kst,model,same_success,same_failed,same_incomplete,cross_success,cross_failed,cross_incomplete,denominator
+2026-11-27T22:27:00+09:00,E350,69,11,0,69,11,0,80
+2026-11-27T22:27:00+09:00,Official Ditto,69,11,0,69,11,0,80
+2026-11-27T22:27:00+09:00,MuseTalk 1.5,18,62,0,18,62,0,80
+2026-11-27T22:27:00+09:00,VideoReTalking,15,65,0,8,48,24,80
+2026-11-27T22:27:00+09:00,LatentSync 1.5,43,37,0,43,37,0,80
